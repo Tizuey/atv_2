@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+/* Style the header */
+.header {
+    background-color: #ffffff;
+    background-image: url('../img/Untitled-4.png');  
+    background-size: cover;
+  }
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #8A9FEF;
+}
+
+
+.image {
+  
+    height: 270px;
+    width: 480px;
+    background-size: cover;
+    background-position:center;
+    /*posição dentro horizontal image*/
+    display: block;
+    margin: 0 auto;
+   }
+
+   /*Barra de menu*/
+    .topnav {
+    overflow: hidden;
+    background-color:#5772e0;
+  }
+ 
+   /*estilicação do menu*/
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+h1{
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50pt;
+}
+
+.image2 {
+    background-image: url('../img/ASD.png');
+    height: 300px;
+    width: 1080px;
+    background-size: cover;
+    background-size: 10;
+    background-position:center;
+    /*posição dentro horizontal image*/
+    display: block;
+    margin: 0 auto;
+   }
+
+   /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+
+h2{
+    font-size: 30pt;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 25px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+    margin-left: 80px;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 25%;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 50%;
+    }
+
+   p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
