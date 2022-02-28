@@ -65,7 +65,7 @@ h1{
 
    /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(255, 255, 255);
   }
   
   /* visited link */
